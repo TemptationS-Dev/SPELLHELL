@@ -1,0 +1,58 @@
+# SPELLHELL: Game Design Document
+# Overview
+SPELLHELL is a medieval-occult boss-only bullet hell featuring a mage protagonist who battles through a gauntlet of grotesque, ritual-bound monstrosities.
+Combat emphasizes precision, dodge-heavy spell duels, tight arenas, and escalating magical patterns.
+
+#Core Concept
+A lone mage enters the infernal crucible known as SPELLHELL—an arcane trial forged by ancient covens. Each chamber presents a singular, overwhelming foe wielding violent patterns of magic.
+Progression is earned through mastery, not grinding.
+
+-=Player Character: The Mage
+Specializes in rapid-cast spell patterns
+-=Has three core systems:
+Primary Spell: Consistent, low-damage projectile
+Secondary Spell: Cooldown-based burst or utility
+Arcane Surge: Temporarily boosts fire rate and mobility
+* Builds toward customizable spell modifiers *
+
+# Gameplay Loop
+Enter chamber
+Confront boss
+Learn attack patterns
+Defeat boss to unlock next room and spell upgrades
+Repeat until the final crucible is cleared
+
+# Boss Design Principles
+All bosses use multi-phase spell patterns
+-=Themes: medieval occult, grotesque runes, demonic ritual magic
+Clear silhouettes for readability
+Spell telegraphs use consistent shapes and colors
+
+# Art Direction
+Pixel art, dark fantasy palette
+Main assets: 32×32
+Bosses: 64×64 or 96×96
+High contrast between backgrounds and projectiles
+
+# Controls
+Movement: WASD / analog stick
+Primary cast: Left click / A
+Secondary cast: Right click / B
+Surge: Space / X
+Dash: Shift / Trigger
+
+# Technical
+Top-down perspective
+Godot engine
+Modular spell system for easy expansion
+
+# Version Goals
+-=Version 0.1
+One playable mage build
+One boss fight
+Basic UI and particles
+
+-=Version 1.0
+Full roster of bosses
+Upgrade trees
+Final crucible
